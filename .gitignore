@@ -1,0 +1,13 @@
+# Build directory
+/build/
+/dist/
+/node_modules/
+.DS_Store
+*.pem
+*.crx
+*.zip
+.env
+.env.local
+.env.*.local
+.tmp/
+.temp/
