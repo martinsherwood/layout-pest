@@ -5,7 +5,6 @@ A Chrome extension that outlines all elements on a web page to visualize layout 
 ## Features
 
 - Instantly toggle outlines around all HTML elements on any web page
-- Different colors for different element types to easily distinguish them
 - Hover effects to highlight the element you're examining
 - Optional tooltip showing detailed element information
 - Customisable outline thickness
