@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Layout Pest",
+  "version": "1.0",
+  "description": "A Chrome extension that helps you visualize and debug layouts by adding outlines to elements.",
+  "icons": {
+    "16": "images/icon_16_bright.png",
+    "48": "images/icon_48_bright.png",
+    "128": "images/icon_128_bright.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon_16_bright.png",
+      "48": "images/icon_48_bright.png",
+      "128": "images/icon_128_bright.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "storage"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["styles/layout-pest.css"],
+    "matches": ["<all_urls>"]
+  }]
+}
