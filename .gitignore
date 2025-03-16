@@ -11,3 +11,4 @@
 .env.*.local
 .tmp/
 .temp/
+/layout-pest
