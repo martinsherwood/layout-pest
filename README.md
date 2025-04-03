@@ -13,7 +13,7 @@ A Chrome extension that outlines all elements on a web page to visualize layout 
 ## Installation
 
 ### From Chrome Web Store
-_(Coming soon)_
+[_(Coming soon)_](https://chromewebstore.google.com/detail/layout-pest/jlomgoeojfnbjbgfmileolmhljmcnfpl)
 
 ### From Source
 1. Clone this repository
